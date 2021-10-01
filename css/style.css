@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gemunu Libre', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* Header */
+
+header {
+  padding: 1rem;
+  background-color: lightgreen;
+  color: #fff;
+}
+
+header h1 {
+  font-family:'Gemunu Libre', Courier, monospace;
+  text-align: initial;
+}
+
+nav {
+  text-align: right;
+}
+
+nav > a {
+  padding: 0 0.5rem;
+}
+
+/* Main */
+
+main {
+  margin: 0 0 7rem;
+}
+
+main h1 {
+  margin: 1rem;
+}
+
+/*  Input */
+
+.input-label {
+  font-size: larger;
+  color: lightgreen;
+  display: block;
+}
+
+.input-text {
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 3px solid lightgreen;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+.btn-check {
+  background: lightgreen;
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
+}
+
+#result {
+  font-size: x-large;
+  margin: 1rem;
+}
+
+.quiz-main {
+    margin: 2rem auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .question-container {
+    width: 85%;
+    margin: 1rem auto;
+    font-size: xx-large;
+    padding: 1rem 0;
+  }
+  
+  .question-container p {
+    margin: 1rem 0;
+}
