@@ -2,7 +2,7 @@ const triangleBase =  document.querySelector('#base-triangle');
 
 const triangleHeight = document.querySelector('#height-triangle');
 
-const calAreaBtn = document.querySelector('#cal-Area');
+const calAreaBtn = document.querySelector('.cal-Area');
 
 const resultEl = document.querySelector('#result');
 
