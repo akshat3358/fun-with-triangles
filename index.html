@@ -6,38 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Hypotenuse</title>
+    <title>Is Triangle?</title>
 </head>
 
 <body>
     <header>
         <h1>Fun With Triangles</h1>
         <nav>
-            <a href="/index.html">Is Triangle?</a>
+            <a href="#">Is Triangles</a>
             <a href="/html_pages/quizTriangle.html">Quiz</a>
-            <a href="">Hypotenuse</a>
+            <a href="/html_pages/calculateHypotenuse.html">Hypotenuse</a>
             <a href="/html_pages/calculateArea.html">Area of Triangle</a>
         </nav>
     </header>
-    <main>
-        <h1>Calculate Hypotenuse of a triangle</h1>
-        <label class="input-label" for="a">
-            a =
+    <main class="quiz">
+        <h1>Angles Of Traingles</h1>
+        <label class="input-label" for="angle1">
+            Angle1(in Degrees)
             <input type="number" class="input-text side-input" />
         </label>
-
-        <label class="input-label" for="b">
-            b =
+        
+        <label class="input-label" for="angle2">
+            Angle2(in Degrees)
             <input type="number" class="input-text side-input" />
         </label>
-
-        <button class="btn-check"  id="hypotenuse-btn">Calculate Hypotenuse</button>
-        <h1>Hypotenuse formula</h1>
-        <h3>√(base² + height²)</h3>
+        
+        <label class="input-label" for="angle3">
+            Angle3(in Degrees)
+            <input type="number" class="input-text side-input" />
+        </label>
+        
+        <button class="btn-check" id="is-triangle-btn">Is Triangle?</button>
         <h2 id="result"></h2>
     </main>
-
-    <script src="/scripts/calculateHypotenuse.js"></script>
+    
+    <script src="/scripts/isTriangle.js"></script>
 </body>
 
 </html>
